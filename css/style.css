@@ -1,0 +1,61 @@
+body {
+	font-family: 'Open Sans';
+	background-image: url("../universe.jpg");
+}
+
+button {
+	border: none;	
+	border: 1px solid  #2c3e50;
+	border-radius: 3px;
+	font-size: 1.5em;
+	height: 50px;
+	margin-bottom: .2em;
+	cursor: pointer;
+	font-family: 'Open Sans';
+	font-family: 'Baloo Bhaina';
+	background-color: #fff;
+}
+
+h1 {
+	margin-top: 3em;
+	text-align: center;
+	color: #fff;
+}
+
+.calculator-div {
+	margin-top:;
+	max-width: 400px;
+	margin: 0 auto;
+	margin-top: 5em;
+	box-shadow: 1px 2px 10px 1px black;
+}
+
+.calculator-screen {
+	padding: .5em;
+	border-bottom: 1px solid #c2c2c2;
+	margin-bottom: 10px;
+	height: 4em;
+	background-color: #fff;
+}
+
+.calculator-screen h2 {
+	text-align: right;
+}
+
+.calculator-operations, .calculator-end {
+	text-align: center;
+	margin-bottom: 10px;
+
+}
+
+.calculator-operations button {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	width: 23%;
+}
+
+.calculator-end button {
+	width: 50%;
+} 
+
