@@ -1,8 +1,8 @@
 
+
+
 var calculatorDiv = document.querySelector('.calculator-div');
-var calculatorScreen = document.querySelector('.calculator-screen');
-var calculatorScreenText = calculatorScreen.querySelector('h2');
-var buttons = document.getElementsByTagName('button');
+var calculatorScreenText = document.getElementById('screen-text');
 var text = "";
 
 function calculate(toEval) {
@@ -37,7 +37,7 @@ calculatorDiv.addEventListener('click', function(event) {
 				text += input;
 		}
 
-		calculatorScreenText.textContent = text;
+		calculatorScreenText.value = text;
 
 	}
 
